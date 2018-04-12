@@ -1,0 +1,347 @@
+/****Build Information: Windows 1.5 Build 56****/
+
+/* Update css */
+.menuBuilderContainer, #menuBuilder #nav, #menuBuilder #nav ul, #menuBuilder #nav ul li, #menuBuilder #nav ul li a, #menuBuilder #nav ul li a span {
+	margin: 0;
+	padding: 0;
+	text-shadow: rgba(255, 255, 255, 1) 0px 0px 0px 0px;
+	box-shadow: inset rgba(255, 255, 255, 1) 0px 0px 0px 0px;
+	background: none;
+	border: none;
+	border-radius: 0px;
+}
+#menuBuilder #nav ul li a span {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+#menuBuilder .nav-button {background-image: none;}
+/* End update css */
+#menuBuilder #nav ul, #menuBuilder #nav ul li { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; *behavior: url(/js/boxsizing.htc); }
+/* Begin css layout */
+
+/* Begin css menu default */
+/************************ Typography *************************/
+#menuBuilder .nav-button, #menuBuilder .button { padding:0px 14px; margin-bottom:0px; text-align:center; vertical-align:baseline; cursor:pointer; color:#222222; font-size:0.8375rem; background-color:white; border:1px solid #B2B2B2; -o-border-radius:4px; -ms-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; -moz-background-clip:padding; -webkit-background-clip:padding-box; background-clip:padding-box; text-decoration:none; box-shadow:inset 0 1px 0 rgba(255, 255, 255, 0.5); }
+#menuBuilder {direction: ltr}
+#menuBuilder .text_menu_link{font-family:Arial, Helvetica, sans-serif; line-height: 2.5em;}
+
+
+/* End css menu default */
+
+/* End css layout */
+
+/* Begin style.css */
+
+#menuBuilder .button { color: #767777; }
+#menuBuilder .button:hover { color: #A1ADD1; }
+@media screen {
+	#menuBuilder .nav-button span { display: inline-block; width: 100% }
+	#menuBuilder #nav ul:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+	#menuBuilder {
+		max-width:840px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 25px;
+		margin-left: auto;
+		margin-right:auto;
+		margin-bottom: 0px;
+		padding: 0px;
+		background-color:transparent;
+		background-image:none;
+		border-width: 0px;
+		border-style:none;
+		border-top-style:none;
+		border-right-style:none;
+		border-bottom-style:none;
+		border-left-style:none; 
+		border-radius:0px;
+		box-shadow:rgba(255, 255, 255, 1) 0px 0px 0px 0px ;
+	}
+	#menuBuilder #nav ul li.menu_items { 
+		border-right: 1px solid #ccc; 
+		text-align: center; 
+		white-space: nowrap; 
+		padding: 0px 0%;
+		width: 24%;
+		margin:0px 1% 0px 0%;
+		background-color:rgba(255, 255, 255, 1);
+		border-style:solid;
+		border-width:1px;
+		border-top-style:solid;
+		border-top-width:1px;
+		border-top-color:#767777;
+		border-right-style:solid;
+		border-right-width:1px;
+		border-right-color:#767777;
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#767777;
+		border-left-style:solid;
+		border-left-width:1px;
+		border-left-color:#767777;
+	}
+	#menuBuilder #nav ul li a {padding: 0; margin: 0; text-decoration: none; height: 100%; width: 100%; display: table; }
+	#menuBuilder #nav ul li a span.icon_menu_handle, #menuBuilder .nav-button i.icon_menu_handle { background-repeat: no-repeat; height: 100%; position: absolute ; left: 0; top: 0; width: 100%; }
+	#menuBuilder #nav ul li a span.text_menu_link {text-align: left; color: #767777; display: block;}
+	#menuBuilder #nav ul li.menu_items ul { margin-top: 1px; width: 100%; border: none; }
+	#menuBuilder #nav ul li ul.submenus{
+		cursor: pointer;
+		width:100%;
+		margin:3px 0% 1px 0%;
+		padding: 0;
+		background-color:#ffffff;
+		border-style:solid;
+		border-width:1px;
+		border-top-style:solid;
+		border-top-width:1px;
+		border-right-style:solid;
+		border-right-width:1px;
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-left-style:solid;
+		border-left-width:1px;
+	}
+	#menuBuilder #nav ul li ul li.submenu_items:hover{
+		background-position:0% 0%;
+		background-image:;
+		background-color:transparent;
+		background-repeat:repeat;
+	}
+	#menuBuilder #nav ul li ul li.submenu_items.coffeeBuilderHoverAllSubButtons{
+		background-position:0% 0%;
+		background-image:;
+		background-color:transparent;
+		background-repeat:repeat;
+	}
+	#menuBuilder #nav ul li ul li.submenus_items{
+		margin: 0;
+		padding: 0;
+		width:100%;
+		background-color:transparent;
+		border-style:solid;
+		border-width:1px;
+		border-color:#767777;
+		border-top-style:none;
+		border-top-width:1px;
+		border-top-color:#767777;
+		border-right-style:none;
+		border-right-width:1px;
+		border-right-color:#767777;
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#767777;
+		border-left-style:none;
+		border-left-width:1px;
+		border-left-color:#767777;
+	}
+	#menuBuilder .nav-button{
+		margin: 2px auto 0px auto;
+	}
+}
+
+
+
+
+
+@media screen {
+#menuBuilder #nav > ul, #menuBuilder {
+	margin: 0px 0%;
+	padding: 0px 0%;
+}
+#menuBuilder {
+    margin: 25px auto 0px auto;
+    padding: 0px 0%;
+}
+#menuBuilder .nav-collapse, #menuBuilder #mainmenu, #menuBuilder #mainmenu_preview{
+	clear: both;
+	display: block;
+}
+
+#menuBuilder .nav-button, #menuBuilder .nav-button-slider{
+	display: none;
+}
+#menuBuilder #nav ul li.menu_items {
+	float: left;
+    padding: 0px 0%;  
+    margin: 0px 1% 0px 0%;  
+    text-align: center;
+    white-space: nowrap;
+    width: 24%;
+}
+#menuBuilder #nav ul li ul.submenus{
+    display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 0px 0%;
+	margin: 3px 0% 1px 0%;
+	width: 56%;
+	z-index: 2000;
+}
+#menuBuilder #nav ul li ul li.submenus_items {
+    width: 100%;
+	margin: 0px 0%;
+}
+#menuBuilder #nav ul li ul li a{
+	text-align: center;	padding-left:10px;
+}
+
+#menuBuilder #nav ul li.menu_items:hover > a{z-index: 3000}
+#menuBuilder #nav ul li.menu_items:hover .submenus::before{content:""; position:absolute; z-index: 2000; top:-20px; left:0; width:100%; height:20px;}#menuBuilder #nav ul li.menu_items > a span.text_menu_link{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:#ffffff;
+	text-align:left;
+	position:;
+	left:auto;
+	top:auto;
+	line-height:3.1em;
+	font-weight:bold;
+}
+#menuBuilder #nav ul li.menu_items > a span.icon_menu_handle{
+background-image:url("../images/menu-4-24.png");
+	background-position:left center;
+}
+#menuBuilder #nav ul li.menu_items{
+background-color:#00a1d2;
+	width:100%;
+	margin-right:1%;
+	margin-left:NaN%;
+	padding-left:8.3%;
+	padding-right:2%;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-style:none;
+}
+#menuBuilder #nav ul li ul.submenus{
+border-color:#c2c2c2;
+	border-top-color:#c2c2c2;
+	border-right-color:#c2c2c2;
+	border-bottom-color:#c2c2c2;
+	border-left-color:#c2c2c2;
+}
+#menuBuilder #nav ul li ul li.submenus_items:hover{
+background-position:0% 0%;
+	background-image:none;
+	background-color:#f7f7f7;
+	background-repeat:repeat;
+}
+#menuBuilder #nav ul li ul li.submenus_items > a span.text_menu_link{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:#808080;
+}
+#menuBuilder #nav ul li ul li.submenus_items{
+background-color:#ffffff;
+	border-bottom-color:#d6d6d6;
+}
+#menuBuilder{
+max-width:none;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:none;
+	margin-top:0px;
+	background-color:transparent;
+}
+}
+
+@media screen and (max-width:420px){
+#menuBuilder #nav > ul, #menuBuilder #nav ul li ul.submenus {
+	margin: 0px 0%;
+	padding: 0px 0%;
+}
+#menuBuilder {
+    margin: 25px auto 0px auto;
+    padding: 0px 0%;
+}
+#menuBuilder .nav-collapse, #menuBuilder #mainmenu_preview, #menuBuilder #mainmenu{
+	clear: both;
+	display: none;
+}
+#menuBuilder .nav-button, #menuBuilder .nav-button-slider{
+	display: block;
+}
+#menuBuilder .nav-button {
+	border-bottom: 4px solid #A1ADD1;
+    text-align: left;
+}
+#menuBuilder #nav ul li.menu_items {
+	width: 100%;
+	float: none;
+	padding: 0px 0%;
+	margin: 2px 0% 0px 0%;
+}
+#menuBuilder #nav ul li ul li.submenus_items {
+	padding: 0px 0%;
+	margin: 0px 0%;
+	width: 100%;
+} 
+#menuBuilder #nav ul li.menu_items ul {
+	width: 100%;
+}
+#menuBuilder #nav ul li ul.submenus{
+	display: none;
+	position: relative;
+	top: 100%;
+	left: 0;
+	padding: 0%;
+	width: auto;
+	z-index: 2000;
+}
+#menuBuilder #nav ul li.menu_items a {
+	padding: 0px 0%;
+}
+#menuBuilder #nav ul li a span.text_menu_link {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+#menuBuilder .nav-button span{
+color:#ffffff;
+	line-height:3em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:1.2em;
+	font-weight:bold;
+}
+#menuBuilder .nav-button{
+max-width:100%;
+	margin-left:auto;
+	margin-right:0%;
+	background-color:#00a1d2;
+	border-top-color:#00a1d2;
+	border-right-color:#00a1d2;
+	border-bottom-color:#0785a8;
+	border-left-color:#00a1d2;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border-top-left-radius:0px;
+	margin-top:0px;
+	padding-left:2%;
+	padding-right:2%;
+}
+#menuBuilder #nav ul li.menu_items > a span.text_menu_link{
+text-align:;
+	position:relative;
+	left:3%;
+	top:0px;
+}
+#menuBuilder #nav ul li.menu_items{
+background-color:#3e7898;
+	margin-right:0%;
+	margin-left:0%;
+	padding-left:0%;
+	margin-top:0px;
+}
+#menuBuilder #nav ul li.menu_1 > a span.icon_menu_handle{
+background-position:0% 0%;
+	background-image:none;
+}
+#menuBuilder #nav ul li ul li.submenus_items > a span.text_menu_link{
+font-size:0.8em;
+	line-height:3em;
+}
+#menuBuilder{
+max-width:420px;
+	background-image:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+}}ul#mainmenu li:hover ul{display:block !important;}ul#mainmenu li ul.submenu{display:none !important;position:absolute;background:#fff !important;margin-top:-1px !important;}ul#mainmenu li ul.submenu li{text-align:left !important;display:block !important;}ul#mainmenu li ul.submenu li a{font-family:"Poppins",cursive;font-size:16px;text-align:left !important;color:#808080 !important;width:100% !important;padding:7px 10px !important;border:1px solid #d6d6d6 !important;display:block !important;}ul#mainmenu li ul.submenu li a:hover{color:#000 !important;}
